@@ -47,14 +47,12 @@ The classifier demonstrates an accuracy of 84%, exhibiting high precision for Fi
 
 ![Confusion Matrix for Recipe Classifier](media/confusionMatrix_graph2.png)
 
-### COMPLEX APPROACH: NEURAL NETWORKS MODEL
-...brainstorming...
 
 ### COMPLEX MODEL - ...
 ...brainstorming...
 
 ### FUTURE WORK  
-In future developments, we will integrate the most effective model into the existing Flask application, enabling users to input their own meals and ascertain their alignment with fitness categories.
+In upcoming developments, we will incorporate the most effective model into the existing Flask application. This will allow users to enter their meals and determine how well they align with fitness categories. Furthermore, if a meal is a standard recipe, the application will provide feedback on which components the user should remove or replace to create a healthier version.
 </br>
 
 The adventure is just beginning... stay tuned for what's next!
