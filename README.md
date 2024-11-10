@@ -48,11 +48,26 @@ The classifier demonstrates an accuracy of 84%, exhibiting high precision for Fi
 ![Confusion Matrix for Recipe Classifier](media/confusionMatrix_graph2.png)
 
 
-### COMPLEX MODEL - ...
+### COMPLEX MODEL ...
 ...brainstorming...
+
+1. Recipe Classification Model</br> 
+Use a BERT-based model like DistilBERT or RoBERTa to classify recipes as "regular" or "fitness" based on context.  
+2. Token Classification</br>
+Implement a fine-tuned BERT-based model for token classification to identify key components like ingredients and cooking methods that differentiate recipe categories.  
+3. Model Interpretation</br>
+Utilize SHAP and LIME to understand model decisions. For example, SHAP may highlight that ingredients like sugar and butter contributed to labeling a recipe as "regular."  
+4. Healthier Alternatives</br>
+Use NLP to suggest healthier substitutions, such as replacing "butter" with "avocado" or "sugar" with "stevia." A dictionary of fitness substitutions can enhance these recommendations.
+
 
 ### FUTURE WORK  
 In upcoming developments, we will incorporate the most effective model into the existing Flask application. This will allow users to enter their meals and determine how well they align with fitness categories. Furthermore, if a meal is a standard recipe, the application will provide feedback on which components the user should remove or replace to create a healthier version.
 </br>
+
+
+**Questions to ask the professor:**
+- Is this a good path to follow in building our complex model? 
+- Should we focus on another approach or different ways to achieve the results we want?
 
 The adventure is just beginning... stay tuned for what's next!
