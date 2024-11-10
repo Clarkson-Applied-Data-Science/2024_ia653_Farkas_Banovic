@@ -28,6 +28,7 @@ The Naive Bayes model is highly effective for text classification tasks.
 **WHY NOT?**
 - The model's assumption of independence among features often does not hold true in real-world data. For example, in natural language processing tasks, certain words frequently appear together (such as "dark chocolate" or "zero sugar"), which poses a challenge for models that regard these occurrences as independent events.
 </br>
+
 ![Predicted Class Probabilities for Test Recipes](media/naiveBayes_graph1.png)
 
 ### SIMPLE APPROACH: MULTINOMIAL NAIVE BAYES
