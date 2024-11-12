@@ -11,7 +11,7 @@ MEETING 1 - 11/12/2024 - 1pm
 </br>
 
 #### ABOUT THE DATA
-Our data is collected from a few sources. One of these is a cookbook created by Tea, a member of our team, which will constitute a significant portion of our fitness recipe data. The second source is the website https://joyfoodsunshine.com/, which serves as our reference for regular recipes. As we continue gathering data, we plan to identify two additional sources—one for fitness recipes and another for regular recipes. This approach will enhance the versatility of our model. Our objective is to ensure that it can effectively process new and unseen data to the best possible extent.
+Our data is gathered from several sources, primarily including a cookbook developed by Tea, a member of our team, which will provide a significant portion of our fitness recipe data. Additionally, we reference three websites: https://joyfoodsunshine.com/, https://www.delish.com/cooking/, and https://www.allrecipes.com/, which serve as our sources for both regular and fitness recipes. This diverse approach will enhance the versatility of our model. Our goal is to ensure that it can effectively process new and unseen data to the greatest extent possible.
 </br>
 
 ![Dataset Sample](media/dataset.png)
@@ -58,11 +58,13 @@ Implement a fine-tuned BERT-based model for token classification to identify key
 3. Model Interpretation</br>
 Utilize SHAP and LIME to understand model decisions. For example, SHAP may highlight that ingredients like sugar and butter contributed to labeling a recipe as "regular."  
 4. Healthier Alternatives</br>
-Use NLP to suggest healthier substitutions, such as replacing "butter" with "avocado" or "sugar" with "stevia." A dictionary of fitness substitutions can enhance these recommendations.
+Use a template generator to suggest healthier substitutions, such as replacing "butter" with "avocado" or "sugar" with "stevia." A dictionary of fitness substitutions can enhance these recommendations.
+
+Replacement Template: "Swap [flagged_ingredient] for a healthier option like [fitness_alternative]."
 
 
 ### FUTURE WORK  
-In upcoming developments, we will incorporate the most effective model into the existing Flask application. This will allow users to enter their meals and determine how well they align with fitness categories. Furthermore, if a meal is a standard recipe, the application will provide feedback on which components the user should remove or replace to create a healthier version.
+In forthcoming developments, we will integrate the most effective model into the existing Flask application. This enhancement will enable users to input their meals and ascertain whether they align with fitness criteria, as well as provide guidance on how to convert them into fitness-oriented recipes.
 </br>
 
 
