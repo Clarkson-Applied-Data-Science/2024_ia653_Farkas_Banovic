@@ -12,6 +12,9 @@ MEETING 1 - 11/12/2024 - 1pm
 
 #### ABOUT THE DATA
 Our data is gathered from several sources, primarily including a cookbook developed by Tea, a member of our team, which will provide a significant portion of our fitness recipe data. Additionally, we reference three websites: https://joyfoodsunshine.com/, https://www.delish.com/cooking/, and https://www.allrecipes.com/, which serve as our sources for both regular and fitness recipes. This diverse approach will enhance the versatility of our model. Our goal is to ensure that it can effectively process new and unseen data to the greatest extent possible.
+
+The data is structured as a list of dictionaries, which we utilized during our brainstorming session for the project to outline the necessary steps to achieve our desired outcome. 
+The collected data is saved in a .txt file, and we will conduct some preprocessing to prepare it for training a language model.
 </br>
 
 ![Dataset Sample](media/dataset.png)
