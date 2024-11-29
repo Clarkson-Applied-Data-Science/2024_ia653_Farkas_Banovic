@@ -226,6 +226,8 @@ This meal might not be the best option for your fitness goals, but don’t worry
 Try swapping sugar for a tasty and healthier option like stevia or honey. You'll love the change!
 Try swapping butter for a tasty and healthier option like coconut oil. You'll love the change!
 
+![Good Prediction](media/good1.png)
+
 
 ```{python}
 recipe_text_example2 = "For a hearty spaghetti bolognese, start by heating olive oil in a large pan over medium heat. Add 1 diced onion, 2 minced garlic cloves, and 1 grated carrot, cooking until softened. Add 500g ground beef, cooking until browned. Stir in 1 can of crushed tomatoes, 2 tablespoons tomato paste, 1 teaspoon dried oregano, and 1 teaspoon dried basil. Simmer for 20 minutes, seasoning with salt and pepper to taste. Serve over cooked spaghetti, garnished with grated Parmesan and fresh parsley."
@@ -234,6 +236,8 @@ update_feedback(recipe_text_example2)
 *output:*
 
 ✅ This is a fitness recipe! This meal is perfect for staying fit and healthy!
+
+![Good Prediction](media/good2.png)
 
 
 ### Examples of Naive Bayes Predictions - FROM OUR DATA
@@ -253,6 +257,8 @@ update_feedback(dataset_recipe1)
 ❌ This is not a fitness recipe!
 This meal might not be the best option for your fitness goals, but don’t worry! Here are some friendly tips to make it a bit healthier:
 How about trying a healthier option instead of frying, like baking or grilling? It’s a great way to enjoy your meals while making them even better for you!
+
+![Good Prediction](media/good1.png)
 
 
 ```{python}
@@ -280,6 +286,9 @@ update_feedback(dataset_recipe2)
 
 ✅ This is a fitness recipe! This meal is perfect for staying fit and healthy!
 
+![Good Prediction](media/good2.png)
+
+
 ```{python}
 dataset_recipe3='''40g Oats
 30g Vanilla Whey protein
@@ -293,6 +302,9 @@ update_feedback(dataset_recipe3)
 *output:*
 
 ✅ This is a fitness recipe! This meal is perfect for staying fit and healthy!
+
+![Good Prediction](media/good1.png)
+
 
 
 ### Examples of Predictions Made by a Neural Network Model - NEW
@@ -331,6 +343,8 @@ print(f"Predicted class: {predicted_class_label}")
 
 Predicted class: Regular
 
+![Good Prediction](media/good1.png)
+
 
 ```{python}
 recipe_text_example2 = '''1 scoop of whey protein powder vanilla flavor
@@ -364,6 +378,8 @@ print(f"Predicted class: {predicted_class_label}")
 
 Predicted class: Regular
 
+![Bad Prediction](media/bad1.png)
+
 
 ### Examples of Predictions Made by a Neural Network Model - FROM OUR DATA
 
@@ -392,6 +408,8 @@ print(f"Predicted class: {predicted_class_label}")
 *output:*
 
 Predicted class: Fitness
+
+![Bad Prediction](media/bad1.png)
 
 
 ```{python}
@@ -426,6 +444,8 @@ print(f"Predicted class: {predicted_class_label}")
 
 Predicted class: Regular
 
+![Bad Prediction](media/bad2.png)
+
 
 ```{python}
 dataset_recipe3='''40g Oats
@@ -447,6 +467,10 @@ print(f"Predicted class: {predicted_class_label}")
 *output:*
 
 Predicted class: Regular
+
+![Bad Prediction](media/bad1.png)
+
+
 
 ### Production
 
