@@ -444,7 +444,7 @@ print(f"Predicted class: {predicted_class_label}")
 
 Predicted class: Regular
 
-![Bad Prediction](media/bad2.png)
+![Bad Prediction](media/bad1.png)
 
 
 ```{python}
